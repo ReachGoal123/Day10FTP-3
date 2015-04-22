@@ -14,13 +14,19 @@
 		85CC73B81AC28F370034346B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CC73B71AC28F370034346B /* main.m */; };
 		85CC73BC1AC28F370034346B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CC73BB1AC28F370034346B /* AppDelegate.m */; };
 		85CC73BF1AC28F370034346B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85CC73BD1AC28F370034346B /* Main.storyboard */; };
-		85CC73C21AC28F370034346B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CC73C11AC28F370034346B /* ViewController.m */; };
 		85CC73C41AC28F370034346B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85CC73C31AC28F370034346B /* Images.xcassets */; };
 		85CC73CB1AC28F370034346B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85CC73CA1AC28F370034346B /* XCTest.framework */; };
 		85CC73CC1AC28F370034346B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85CC73AB1AC28F370034346B /* Foundation.framework */; };
 		85CC73CD1AC28F370034346B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85CC73AF1AC28F370034346B /* UIKit.framework */; };
 		85CC73D51AC28F370034346B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85CC73D31AC28F370034346B /* InfoPlist.strings */; };
 		85CC73D71AC28F370034346B /* Day10FTPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CC73D61AC28F370034346B /* Day10FTPTests.m */; };
+		85CC73E21AC297C90034346B /* LocalFileListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CC73E11AC297C90034346B /* LocalFileListTableViewController.m */; };
+		85CC73E51AC29BA40034346B /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CC73E41AC29BA40034346B /* AsyncSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		85CC73E81AC29CC10034346B /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CC73E71AC29CC10034346B /* Utils.m */; };
+		85CC73EB1AC29D740034346B /* ServerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CC73EA1AC29D740034346B /* ServerViewController.m */; };
+		85CC73EE1AC2A9270034346B /* ServerFileListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CC73ED1AC2A9270034346B /* ServerFileListTableViewController.m */; };
+		85CC73F11AC2AA370034346B /* File.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CC73F01AC2AA370034346B /* File.m */; };
+		85CC73F41AC2AF3A0034346B /* DownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CC73F31AC2AF3A0034346B /* DownloadViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +51,26 @@
 		85CC73BA1AC28F370034346B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		85CC73BB1AC28F370034346B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		85CC73BE1AC28F370034346B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		85CC73C01AC28F370034346B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		85CC73C11AC28F370034346B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		85CC73C31AC28F370034346B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		85CC73C91AC28F370034346B /* Day10FTPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Day10FTPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85CC73CA1AC28F370034346B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		85CC73D21AC28F370034346B /* Day10FTPTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Day10FTPTests-Info.plist"; sourceTree = "<group>"; };
 		85CC73D41AC28F370034346B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		85CC73D61AC28F370034346B /* Day10FTPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day10FTPTests.m; sourceTree = "<group>"; };
+		85CC73E01AC297C90034346B /* LocalFileListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalFileListTableViewController.h; sourceTree = "<group>"; };
+		85CC73E11AC297C90034346B /* LocalFileListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalFileListTableViewController.m; sourceTree = "<group>"; };
+		85CC73E31AC29BA40034346B /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		85CC73E41AC29BA40034346B /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		85CC73E61AC29CC10034346B /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		85CC73E71AC29CC10034346B /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		85CC73E91AC29D740034346B /* ServerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerViewController.h; sourceTree = "<group>"; };
+		85CC73EA1AC29D740034346B /* ServerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerViewController.m; sourceTree = "<group>"; };
+		85CC73EC1AC2A9270034346B /* ServerFileListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerFileListTableViewController.h; sourceTree = "<group>"; };
+		85CC73ED1AC2A9270034346B /* ServerFileListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerFileListTableViewController.m; sourceTree = "<group>"; };
+		85CC73EF1AC2AA370034346B /* File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = File.h; sourceTree = "<group>"; };
+		85CC73F01AC2AA370034346B /* File.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = File.m; sourceTree = "<group>"; };
+		85CC73F21AC2AF3A0034346B /* DownloadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadViewController.h; sourceTree = "<group>"; };
+		85CC73F31AC2AF3A0034346B /* DownloadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +130,23 @@
 		85CC73B11AC28F370034346B /* Day10FTP */ = {
 			isa = PBXGroup;
 			children = (
+				85CC73E31AC29BA40034346B /* AsyncSocket.h */,
+				85CC73E41AC29BA40034346B /* AsyncSocket.m */,
 				85CC73BA1AC28F370034346B /* AppDelegate.h */,
 				85CC73BB1AC28F370034346B /* AppDelegate.m */,
 				85CC73BD1AC28F370034346B /* Main.storyboard */,
-				85CC73C01AC28F370034346B /* ViewController.h */,
-				85CC73C11AC28F370034346B /* ViewController.m */,
+				85CC73E91AC29D740034346B /* ServerViewController.h */,
+				85CC73EA1AC29D740034346B /* ServerViewController.m */,
+				85CC73E01AC297C90034346B /* LocalFileListTableViewController.h */,
+				85CC73E11AC297C90034346B /* LocalFileListTableViewController.m */,
+				85CC73EC1AC2A9270034346B /* ServerFileListTableViewController.h */,
+				85CC73ED1AC2A9270034346B /* ServerFileListTableViewController.m */,
+				85CC73F21AC2AF3A0034346B /* DownloadViewController.h */,
+				85CC73F31AC2AF3A0034346B /* DownloadViewController.m */,
+				85CC73E61AC29CC10034346B /* Utils.h */,
+				85CC73E71AC29CC10034346B /* Utils.m */,
+				85CC73EF1AC2AA370034346B /* File.h */,
+				85CC73F01AC2AA370034346B /* File.m */,
 				85CC73C31AC28F370034346B /* Images.xcassets */,
 				85CC73B21AC28F370034346B /* Supporting Files */,
 			);
@@ -249,9 +279,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85CC73C21AC28F370034346B /* ViewController.m in Sources */,
 				85CC73BC1AC28F370034346B /* AppDelegate.m in Sources */,
+				85CC73F11AC2AA370034346B /* File.m in Sources */,
+				85CC73E21AC297C90034346B /* LocalFileListTableViewController.m in Sources */,
 				85CC73B81AC28F370034346B /* main.m in Sources */,
+				85CC73EB1AC29D740034346B /* ServerViewController.m in Sources */,
+				85CC73E81AC29CC10034346B /* Utils.m in Sources */,
+				85CC73E51AC29BA40034346B /* AsyncSocket.m in Sources */,
+				85CC73EE1AC2A9270034346B /* ServerFileListTableViewController.m in Sources */,
+				85CC73F41AC2AF3A0034346B /* DownloadViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
